@@ -1,3 +1,7 @@
+// SIMPLE C PROGRAM 
+//MY FIRST C PROGRAM
+
+
 #include<stdio.h>
 int main()
 {
