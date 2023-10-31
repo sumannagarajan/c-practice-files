@@ -1,3 +1,5 @@
+// declaring variable in c 
+
 #include<stdio.h>
 int main()
 {
