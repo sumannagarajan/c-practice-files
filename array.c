@@ -12,6 +12,9 @@ int main ()
 
 */
 
+
+/*
+
 // changing array element
 
 #include<stdio.h>
@@ -21,4 +24,22 @@ int main ()
     b[1]=22;
     printf("To display the changed array element b[1] : %d\n",b[1]);
     return 0;
+}
+
+*/
+
+// looping the array
+// if we want loop the array means must use forloop
+
+#include<stdio.h>
+int main ()
+{
+    int num[] = {1,2,3,4,5,6,7,8,9,10,10,20,30,40,50};
+    int i;
+    for ( i = 0; i < 15; i++)
+    {
+        printf("value num[%d]%d\n",i,num[i]);
+    }
+    return 0;
+
 }
