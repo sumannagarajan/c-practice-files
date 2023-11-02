@@ -31,6 +31,8 @@ int main ()
 // looping the array
 // if we want loop the array means must use forloop
 
+/*
+
 #include<stdio.h>
 int main ()
 {
@@ -42,4 +44,21 @@ int main ()
     }
     return 0;
 
+}
+
+*/
+
+//setting the size of array
+
+#include<stdio.h>
+int main ()
+{
+    int x[7] = {1,2,3,4,5,6,7}; // array size is 7 int number
+    int i;
+    for ( i = 0; i < 7; i++)
+    {
+        printf("VALUE x[%d]%d\n",i,x[i]);
+    }
+    return 0;
+    
 }
