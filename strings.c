@@ -3,11 +3,6 @@
 int main ()
 {
     char myname[] = "sumannagarajan";
-    int i;
-    for(i=0;i<14;i++){
-    printf("%c\n",myname[i]); // loop throug a string
-    }
+    printf("%s\n",myname); //TO display the string
     return 0;
-
-    
 }
