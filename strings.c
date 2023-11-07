@@ -3,7 +3,11 @@
 int main ()
 {
     char myname[] = "sumannagarajan";
-    myname[7]= 's';
-    printf("%s\n",myname); //Change the char 
+    int i;
+    for(i=0;i<14;i++){
+    printf("%c\n",myname[i]); // loop throug a string
+    }
     return 0;
+
+    
 }
