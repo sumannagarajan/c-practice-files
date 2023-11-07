@@ -3,6 +3,7 @@
 int main ()
 {
     char myname[] = "sumannagarajan";
-    printf("%c\n",myname[7]); // Display only one character
+    myname[7]= 's';
+    printf("%s\n",myname); //Change the char 
     return 0;
 }
