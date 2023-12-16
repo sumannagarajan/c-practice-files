@@ -1,18 +1,15 @@
-// swapping the 2 values by using temp variable 
+// swapping the value without temp variable
 
 #include<stdio.h>
 int main()
 {
-    int a=10;
-    int b=20;
-    int temp; // temp variable 
-    temp=a;
-    a=b;
-    b=temp;
-    
-    printf("THE SWAPED VALUE OF A & B\n a = %d\nb = %d\n",a,b);
+    int a = 10;
+    int b = 20;
+    a = a+b;
+    b = a-b;
+    a = a-b;
+    printf("sawapping value of A & B\n");
+    printf(" a = %d\n b = %d\n",a,b);
     return 0;
-
-
 
 }
