@@ -18,3 +18,5 @@ int main ()
 }
 
 // practice file..
+//multi D array
+
