@@ -1,32 +1,18 @@
-/*
-
-// problem sloving file
 #include<stdio.h>
-int main()
+int main ()
 {
-    int a = 5;
-    int b = 2;
-    float c = (float)a/b;
-    printf("THE ANS IS %.1f \n ",c);
-    return 0;
-}
-
-*/
-
-
-#include<stdio.h>
-int main()
-{
-    int a;
-    printf("PLEASE ENTER THE VALUES : \n");
-    scanf("%d",&a);
-    if (a % 2 == 0)
+    int a[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+    int i,j;
+    for ( i = 0; i < 3; i++)
     {
-        printf("YOUR NUMBER IS EVEN NUMBER \n");
-    }
-    else
-    {
-        printf("YOUR NUMBER IS ODD NUMBER \n");
+        for ( j = 0; j < 3; j++)
+        {
+            printf("%d\t",a[i][j]);
+            
+        }
+        printf("\n");
+        
     }
     return 0;
+    
 }
