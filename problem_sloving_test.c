@@ -20,4 +20,4 @@ int main ()
 // practice file..
 //multi D array
 //removed device checking
-//
+//checking  
