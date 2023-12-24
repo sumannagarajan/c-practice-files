@@ -10,9 +10,12 @@
 int main()
 {
     int a;
+    while(1)
+    {
     printf("PLEASE ENTER THE NUMBER. THE ENTERED NUMBER SHOULD DISPLAY THE DAY OF THE WEEK : \n");
     scanf("%d",&a);
-    switch (a)
+
+     switch (a)
     {
     case 1:
         printf("MONDAY \n");
@@ -38,5 +41,6 @@ int main()
     default:
         printf("SORRY YOU ENTER THE OUT OF RANGE NUMBER please enter 1 to 7 numbers \n");
        break;
+    }
     }
 }
